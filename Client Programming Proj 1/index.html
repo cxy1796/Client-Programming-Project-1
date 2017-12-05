@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Project 1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="cookies.js"></script>
+	<script type="text/javascript" src="buildFunctions.js"></script>
+
+	<script type="text/javascript">
+		if(document.getElementById){
+			if( (navigator.userAgent.indexOf('Mac') != -1) && document.all){
+				alert("Your browser won't work! Redirecting");
+				window.open("https://www.mozilla.org/en-US/firefox/new/");
+			}
+		}
+	</script>
+	<script>var ie7 = false;</script>
+	<!--[if lt IE 8]>
+		<script type="text/javascript">
+			var ie7 = true;
+		</script>
+		<![endif]-->
+</head>
+<body onload="init('first'); fadeIn(); showForm(); hello();">
+	<h3 id="localStorageVal"></h3>
+	<div id="container">
+		<header>
+			<img src="banner.png" alt="" id="banner" >
+		</header>
+	
+	
+		<div id="selectDiv"></div>
+	</div>
+		
+</body>
+</html>

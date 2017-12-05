@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+  <question prev="first"> 
+  	<q>Choose a cupcake flavor</q>
+  	<opt text="Vanilla" value="vanillacupcake">Vanilla</opt>
+  	<opt text="Chocolate" value="chocolatecupcake">Chocolate</opt>
+  </question>
+
+  <question prev="vanillacupcake"> 
+  	<q>What else do you want?</q>
+  	<opt text="Frosting" value="frosting">Frosting</opt>
+  	<opt text="Filling" value="filling">Filling</opt>
+ </question>
+
+  <question prev="chocolatecupcake"> 
+    <q>German Chocolate or Dark Chocolate?</q>
+    <opt text="German" value="german">German</opt>
+    <opt text="Dark" value="dark">Dark</opt>
+ </question>
+
+
+  <question prev="frosting"> <!-- vanilla options -->
+    <q>What flavor of frosting?</q>
+    <opt text="Vanilla" value="vanillafrost">Vanilla</opt>
+    <opt text="Chocolate" value="chocolatefrost">Chocolate</opt>
+   <opt text="Lemon" value="lemonfrost">Lemon</opt><!-- may need to comment-->
+ </question>
+
+ <question prev="german"> <!-- German chocolate options-->
+    <q>What else do you want?</q>
+    <opt text="Frosting" value="frosting">Frosting</opt>
+    <opt text="Filling" value="filling">Filling</opt>
+  </question>
+
+
+
+<!-- vanilla cupcake frosting1 option -->
+ <question prev="vanillafrost">
+    <q>What topping?</q>
+    <opt text="Chocolate syrup" value="chocolatesyrup">Chocolate syrup</opt>
+    <opt text="Sprinkles" value="sprinkles">Sprinkles</opt>
+ </question>
+
+<!-- vanilla frosting2 option-->
+ <question prev="chocolatefrost">
+    <q>What topping?</q>
+    <opt text="Chocolate chips" value="chocolatechips">Chocolate chips</opt>
+    <opt text="Sprinkles" value="sprinkles">Sprinkles</opt>
+ </question>
+
+<!-- vanilla frosting 3 option -->
+ <question prev="lemonfrost">
+    <q>What topping?</q>
+    <opt text="Raspberry syrup" value="raspberrysyrup">Raspberry syrup</opt>
+    <opt text="Sprinkles" value="sprinkles">Sprinkles</opt>
+ </question>
+
+<!-- vanilla filling option -->
+ <question prev="filling"> 
+    <q>What flavor of filling?</q>
+    <opt text="Raspberry" value="raspberryfill">Raspberry</opt>
+    <opt text="Chocolate" value="chocolatefill">Chocolate</opt>
+    <opt fOpt="3" text="Lemon" value="lemonfill">Lemon</opt> <!-- may need to comment-->
+ </question>
+
+<!-- vanilla filling flavor1 option -->
+<question prev="raspberryfill">
+   <q>What flavor of frosting?</q>
+   <opt text="Lemon" value="lemonfrost">Lemon</opt>
+   <opt text="Chocolate" value="chocolatefrost">Chocolate</opt>
+</question>
+
+
+<!-- vanilla filling flavor2 option -->
+<question prev="chocolatefill">
+   <q>What flavor of frosting?</q>
+   <opt text="Vanilla" value="vanillafrost">Vanilla</opt>
+   <opt text="Chocolate" value="chocolatefrost">Chocolate</opt>
+</question>
+
+<!-- vanilla filling flavor3 option -->
+<question prev="lemonfill">
+   <q>What flavor of frosting?</q>
+   <opt text="Raspberry" value="raspberryfrost">Raspberry</opt>
+   <opt text="Vanilla" value="vanillafrost">Vanilla</opt>
+</question>
+
+
+
+
+<!-- German chocolate frosting option -->
+
+ <question prev="frosting">
+    <q>What flavor of frosting?</q>
+    <opt text="Vanilla" value="vanillafrost">Vanilla</opt>
+    <opt text="Chocolate" value="chocolatefrost">Chocolate</opt>
+ </question>
+
+<!-- chocolate filling option -->
+ <question prev="filling">
+  <q>What flavor of filling?</q>
+  <opt text="Vanilla" value="vanillafill">Vanilla</opt>
+  <opt text="Chocolate" value="chocolatefill">Chocolate</opt>
+</question>
+
+<!-- choosing frosting loads topping1 -->
+ <question prev="vanillafrost">
+  <q>What topping do you want?</q>
+  <opt text="Sprinkles" value="sprinkles">Sprinkles</opt>
+  <opt text="Cherry" value="cherry">Cherry</opt>
+</question>
+<!-- choosing frosting loads topping2 -->
+<question prev="chocolatefrost">
+  <q>What topping do you want?</q>
+  <opt text="Chocolate syrup" value="chocolatesyrup">Chocolate syrup</opt>
+  <opt text="Raspberry syrup" value="raspberrysyrup">Raspberry syrup</opt>
+</question>
+
+
+
+<!-- choosing dark choc -->
+ <question prev="dark"> 
+    <q>What flavor of frosting?</q>
+    <opt text="Raspberry Buttercream" value="raspberrybuttercream">Raspberry Buttercream</opt>
+    <opt text="Chocolate" value="chocolate">Chocolate</opt>
+ </question>
+
+<!-- choosing raspberry frosting -->
+ <question prev="raspberrybuttercream">
+    <q>What filling?</q>
+    <opt text="Chocolate" value="chocolate">Chocolate</opt>
+    <opt text="Raspberry" value="raspberry">Raspberry</opt>
+ </question>
+
+<!-- choosing chocolate frosting -->
+<question prev="chocolate">
+  <q>What filling?</q>
+  <opt text="Chocolate" value="chocolate">Chocolate</opt>
+  <opt text="Vanilla" value="vanilla">Vanilla</opt>
+</question>
+
+<!-- choosing for filling1 -->
+<question prev="chocolate">
+  <q>What topping do you want?</q>
+  <opt text="Cherry" value="cherry">Cherry</opt>
+  <opt text="Chocolate Syrup" value="chocolatesyrup">Chocolate Syrup</opt>
+</question>
+
+<!-- choosing for filling2 -->
+<question prev="raspberry">
+  <q>What topping do you want?</q>
+  <opt text="Chocolate Syrup" value="chocolatesyrup">Chocolate Syrup</opt>
+  <opt text="Raspberry Syrup" value="raspberrysyrup">Raspberry Syrup</opt>
+</question>
+
+</form>
